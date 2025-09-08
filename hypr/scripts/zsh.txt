@@ -1,0 +1,25 @@
+#oh-my-zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+#powerlevel10k
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
+
+
+#shortcuts
+alias sth="nvim ~/.config/hypr/hyprland.conf"
+alias sps="sudo pacman -S"
+alias spu="sudo pacman -Syu"
+alias ff="fastfetch"
+alias nf="neofetch"
+alias cdh="cd ~/.config/hypr"
+alias cds="cd ~/.config/hypr/scripts"
+alias sz="nvim ~/.zshrc"
+alias s="source ~/.zshrc"
+alias nv="nvim"
+alias snv="sudo nvim"
+alias cmp="g++ -o exec"
+alias reb="sudo nixos-rebuild switch"
+alias snc="sudo nvim /etc/nixos/configuration.nix"
+alias help="cat ~/.config/hypr/scripts/zsh_help"
+alias rm="sudo rm -r "
