@@ -16,7 +16,7 @@ repo_system=(
 
 # === Desktop & UI ===
 repo_desktop=(
-  hyprland waybar rofi sddm swaybg dunst slurp grim feh
+  hyprland hyprlock hyprindle waybar rofi sddm swaybg dunst slurp grim feh
   blueman bluez bluez-utils bluez-deprecated-tools
   brightnessctl networkmanager network-manager-applet nm-connection-editor
   wireplumber pipewire pipewire-alsa pipewire-pulse pipewire-jack pavucontrol
