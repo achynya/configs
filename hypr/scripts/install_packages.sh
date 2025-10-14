@@ -25,12 +25,12 @@ repo_desktop=(
 
 # === Fonts ===
 repo_fonts=(
-  ttf-firacode-nerd ttf-jetbrains-mono-nerd ttf-nerd-fonts-symbols
+  ttf-firacode-nerd ttf-jetbrains-mono-nerd ttf-nerd-fonts-symbols terminus-font
 )
 
 # === Terminal & CLI Tools ===
 repo_cli=(
-  zsh vim neovim tmux htop btop calc jq wget fastfetch git github-cli nodejs npm gh
+  zsh vim neovim tmux htop btop calc jq wget fastfetch git github-cli npm
 )
 
 # === File Managers & Utils ===
